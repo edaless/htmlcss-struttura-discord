@@ -2,4 +2,30 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    /* debug */
+    height: 500px;
+    width: 90%;
+    margin-left: 5%;
 }
+
+header{
+    /* debug */
+    background: rgb(27, 45, 205);
+}
+
+
+
+
+.pari{
+    
+    background: rgb(146, 147, 157);
+}
+
+
+
+footer{
+    /* debug */
+    background: rgb(59, 60, 68);
+
+}
+
