@@ -3,17 +3,48 @@
     padding:0;
     box-sizing: border-box;
     /* debug */
-    height: 500px;
-    width: 90%;
-    margin-left: 5%;
+}
+
+.container{
+    display: flex;
+    /* margin-left: 5%; */
+    width:100%;
+    /* flex-flow: row; */
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 header{
     /* debug */
     background: rgb(27, 45, 205);
+    width: 100%;
 }
 
 
+
+footer{
+    /* debug */
+    background: rgb(59, 60, 68);
+    width: 100%;
+
+}
+
+section{
+    display: flex;    
+    justify-content: center;
+    height: 500px;
+    width: 70%;
+}
+
+.metà{    
+    border:solid 3px black;
+
+    /* debug */
+    
+    width: 50%;
+
+}
 
 
 .pari{
@@ -22,10 +53,4 @@ header{
 }
 
 
-
-footer{
-    /* debug */
-    background: rgb(59, 60, 68);
-
-}
 
