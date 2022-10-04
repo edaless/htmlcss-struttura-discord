@@ -10,84 +10,159 @@
 <body>
     <div class="container">
 
-        <!-- sia l'header che il footer sono in una section così ne prendono le caratteristiche -->
-        <section>
-            <header>
-                <h2>Un posto in cui puoi parlare</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vitae, explicabo laudantium modi aliquam veritatis accusantium recusandae natus voluptatum omnis sunt vero doloribus veniam? Iste quisquam quaerat corrupti error sapiente.</p>
-            </header>
-        </section>    
+        <header>
 
-        <!-- Un luogo a invito con tutto lo spazio necessario per parlare -->
+            <!-- sia l'header che il footer sono in una section così ne prendono le caratteristiche -->
+            <section class="meno-uno">
+                <div class="sottosezione prima-riga">
+                    <div id="logo">logo</div>
 
-        <section class="zero">
-            <div class="metà"></div>
-            <div class="metà">
-                <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis distinctio corrupti ipsam, fuga pariatur cupiditate expedita possimus. Consequuntur veniam ullam assumenda, qui ab perspiciatis iste dolorem odit eius, temporibus molestias?
-                </p>
-            </div>
-            
+                    <div id="links">
+                        <div class="link">link</div>
+                        <div class="link">link</div>
+                        <div class="link">link</div>
+                        <div class="link">link</div>
+                        <div class="link">link</div>
+                        <div class="link">link</div>
 
-        </section>
-
-        <!-- Dove trovarsi é facile -->
-        <section class="uno">
-            <div class="metà">
-                <h2>Dove trovarsi è facile</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima asperiores necessitatibus, esse vel odit sunt quos veritatis quasi commodi ut nulla pariatur sed vitae ratione, harum, voluptas consequatur? Minus, officiis!</p>
-            </div>
-            <div class="metà"></div>
-            
-
-        </section>
-
-        <!-- Da pochi a un fandom -->
-        <section class="due">
-            <div class="metà"></div>
-            <div class="metà">
-                <h2>Da pochi a un fandom</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nostrum temporibus cupiditate, fugit quibusdam tempore est, odio illo doloremque consequatur nulla iure cumque accusamus blanditiis adipisci ipsum dolor et asperiores?</p>
-            </div>
-            
-
-        </section>
+                    </div>
 
 
+                    <div id="registrati">registrati</div>
 
-        <!-- Tecnologia affidabile per tenersi in contatto -->
-        <section class="tre">
-        
-            <h2>Tecnologia affidabile per tenersi in contatto</h2>
-        
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus sed quo non rerum! Vero, tenetur. Facilis incidunt nulla possimus debitis cupiditate non recusandae ex, vitae, atque voluptas at labore magni.</p>
-    
-        </section>
-        
-        <!-- sia l'header che il footer sono in una section così ne prendono le caratteristiche -->
-        <section>
+
+                </div>
+                <div class="sottosezione-header">
+                    
+                    <h2>Un posto in cui puoi parlare</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vitae, explicabo laudantium modi aliquam veritatis accusantium recusandae natus voluptatum omnis sunt vero doloribus veniam? Iste quisquam quaerat corrupti error sapiente.</p>
+                    
+                </div>
+            </section>    
+        </header>
+
+        <main>
+            <!-- Un luogo a invito con tutto lo spazio necessario per parlare -->
+
+            <section class="zero">
+                <div class="sottosezione">
+                    <div class="metà-immagine"></div>
+
+
+                    <div class="metà-scritta">
+                        <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis distinctio corrupti ipsam, fuga pariatur cupiditate expedita possimus. Consequuntur veniam ullam assumenda, qui ab perspiciatis iste dolorem odit eius, temporibus molestias?
+                        </p>
+                    </div>
                 
-            <footer>
-                <div class="sezione-footer">
-                    
                 </div>
+            </section>
 
-                <div class="sezione-footer">
+            <!-- Dove trovarsi é facile -->
+            <section class="uno">
+                <div class="sottosezione">
+
                     
-                </div>
-
-                <div class="sezione-footer">
+                    <div class="metà-scritta">
+                        <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis distinctio corrupti ipsam, fuga pariatur cupiditate expedita possimus. Consequuntur veniam ullam assumenda, qui ab perspiciatis iste dolorem odit eius, temporibus molestias?
+                        </p>
+                    </div>
                     
+                    <div class="metà-immagine"></div>
+                
                 </div>
+            </section>
 
-                <div class="sezione-footer">
+            <!-- Da pochi a un fandom -->
+            <section class="due">
+                <div class="sottosezione">
+                    <div class="metà-immagine"></div>
+
+
+                    <div class="metà-scritta">
+                        <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis distinctio corrupti ipsam, fuga pariatur cupiditate expedita possimus. Consequuntur veniam ullam assumenda, qui ab perspiciatis iste dolorem odit eius, temporibus molestias?
+                        </p>
+                    </div>
+                
+                </div>
+            </section>
+
+
+
+            <!-- Tecnologia affidabile per tenersi in contatto -->
+            <section class="tre">
+                <div class="sottosezione">
                     
-                </div>
-
-            </footer>
+                    <!-- questo div serve a impedire che
+                    il flex arrivi all'h2 e al p,
+                    così non stanno uno a fianco all'altro. -->
+                    <div>
             
-        </section>
+                        <h2>Tecnologia affidabile per tenersi in contatto</h2>
+                    
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus sed quo non rerum! Vero, tenetur. Facilis incidunt nulla possimus debitis cupiditate non recusandae ex, vitae, atque voluptas at labore magni.</p>
+                    </div>
+
+                
+                </div>
+            </section>
+        </main>
+
+
+        <!-- sia l'header che il footer sono in una section così ne prendono le caratteristiche -->
+        <footer>
+            <section>
+                    
+            
+
+
+                <div class="sottosezione"> 
+
+                    <div class="colonna-grande-footer">
+                        
+                    </div>
+                    <div class="colonna-footer">
+                        
+                    </div>
+
+                    <div class="colonna-footer">
+                        
+                    </div>
+
+                    <div class="colonna-footer">
+                        
+                    </div>
+
+                    <div class="colonna-footer">
+                        
+                    </div>
+
+
+
+                </div>   
+
+                <!-- <hr> -->
+                
+                <div class="sottosezione">
+                    
+                    <div id="parte-finale">
+                        <div id="logo">logo</div>
+                        <div id="registrati">registrati</div>
+                        
+                    </div>
+
+
+                </div>
+                
+                
+            </section>
+
+        </footer>
 
 
 

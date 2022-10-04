@@ -12,55 +12,92 @@
 
 }
 
-header{
-    background: rgb(27, 45, 205);
-    width: 100%;
-}
 
-header h2{
-    margin-top: 10%;
-    text-align: center;
-    color: white;
-}
-header p{
-    margin-top: 20px;
-    text-align: center;
-    color: white;
-    width: 60%;
-    margin-left: 20%;
-}
+
+
+
 
 
 section{
     display: flex;    
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
-    height: 500px;
-    width: 70%;
+    width: 100%;
+    /* debug */
+    
+    /* height: 500px; */
 }
 
-.metà{    
-    width: 45%;
+
+/* la sottosezione serve principalmente a 
+rendere tutto con la stessa width */
+.sottosezione{
+    width: 70%;
+    display: flex;    
+    justify-content: center;
+    /* debug */
+    background: rgba(255, 4, 4, 0.228);
+}
+
+.prima-riga{
+    display: flex;    
+    justify-content: space-between;
+
+}
+
+#links{
+    display: flex;    
+    justify-content: center;
+
+
+}
+.link{
+    margin:0 10%;
+}
+.sottosezione-header{
+    width: 40%;
+    height: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    /* debug */
+    background: rgba(255, 4, 4, 0.308);
+}
+
+.metà-immagine{    
+    width: 50%;
+    height: 100%;
+
+    
+
+    /* debug */
+    background: yellow;
+    
+}
+.metà-scritta{    
+    width: 30%;
 
     
 
     /* debug */
     
-    /* border:solid 3px black; */
+    background: lightblue;
     
 }
 
 h2{    
-    margin-top: 10%;
     text-align: center;
-    width: 90%;
+    color: white;
+    /* width: 90%; */
 }
 p{    
     margin-top: 10%;
     text-align: center;
-    width: 90%;
+    /* width: 90%; */
 }
-
+.meno-uno{
+    background: rgb(27, 45, 205);
+    width: 100%;
+}
 .uno, .tre{
     
     background: rgb(146, 147, 157);
@@ -73,16 +110,37 @@ footer{
     background: rgb(59, 60, 68);
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 
 
 }
-.sezione-footer{
-    width: 20%;
-    border-left: solid 1px  white;
-    border-right: solid 1px  white;
+
+.colonna-footer{
+    width: calc(70% / 4);
     
     /* debug */
     background: #000;
-    height:100%;
+    border-left: solid 1px  white;
+    border-right: solid 1px  white;
+}
+.colonna-grande-footer{
+    width: 30%;
+    
+    /* debug */
+    background: pink;
+    height:300px;
+}
+
+#parte-finale{
+    display: flex;    
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2.5%;
+    border-top: 1px solid #000;
+    padding-top: 2.5%;
+
+    /* debug */
+    height: 50px;
+
+    /* background-color: tomato; */
 }
